@@ -1,7 +1,7 @@
 <?
 
-function fizzbuzz($start, $end) {
-    for ($i = 1; $i <= 100; $i++) {
+function fizzBuzz($start, $end) {
+    for ($i = $start; $i <= $end; $i++) {
         $out = $i . "\n";
     if (($i % 15) === 0) {
         $out = "FizzBuzz\n";
@@ -13,4 +13,4 @@ function fizzbuzz($start, $end) {
     echo $out;
     }
 }
->?
+?>
